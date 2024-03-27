@@ -25,3 +25,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## como gerar o build para pages do github  USUARIO = user do github  DIRETORIO = local
+ng build --base-href="https://USUARIO.github.io/DIRETORIO/" --output-path DIRETORIO  
