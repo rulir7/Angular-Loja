@@ -1,30 +1,31 @@
-# ProwayComputers
+# Projeto de Loja Online em Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+O projeto foi realizado com [Angular CLI](https://github.com/angular/angular-cli) versão 14.2.13. Durante a trilha de ensino em Java, no programa Start da empresa Capgemini.
 
-## Development server
+## Servidor de Desenvolvimento
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Execute ng serve para iniciar um servidor de desenvolvimento. Navegue para http://localhost:4200/. O aplicativo será recarregado automaticamente se você fizer qualquer alteração nos arquivos de origem.
 
-## Code scaffolding
+## Criação de código
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Execute ng generate component nome-componente para gerar um novo componente. Você também pode usar ng generate directive|pipe|service|class|guard|interface|enum|module.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Execute ng build para construir o projeto. Os artefatos de construção serão armazenados no diretório dist/.
 
-## Running unit tests
+## Executando testes unitários
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Execute ng test para executar os testes unitários usando o [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Executando testes de ponta a ponta
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Execute ng e2e para executar os testes de ponta a ponta usando uma plataforma de sua escolha. Antes de usar esse comando, você precisa adicionar um pacote que implemente funcionalidades de teste de ponta a ponta.
 
-## Further help
+## Ajuda adicional
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para obter mais ajuda sobre o Angular CLI, use ng help ou consulte a página de [Visão geral e Referência de Comandos do Angular CLI](https://angular.io/cli).
 
-## como gerar o build para pages do github  USUARIO = user do github  DIRETORIO = local
-ng build --base-href="https://USUARIO.github.io/DIRETORIO/" --output-path DIRETORIO  
+## Como gerar o build para pages do github USUARIO = user do github DIRETORIO = local
+
+ng build --base-href="https://USUARIO.github.io/DIRETORIO/" --output-path DIRETORIO
